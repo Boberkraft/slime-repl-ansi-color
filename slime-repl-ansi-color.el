@@ -10,7 +10,7 @@
              (lambda ()
                (slime-repl-ansi-on)))))
 
-(defvar slime-repl-ansi-color nil
+(defvar slime-repl-ansi-color t
   "When Non-NIL will process ANSI colors in the lisp output")
 
 (make-variable-buffer-local 'slime-repl-ansi-color)
